@@ -1,0 +1,3 @@
+/dao/action=select&object=tags&where=none
+SELECT tag.name as tag, "tagGroup".name as tagGroup FROM pcrc_schema.tag, pcrc_schema."tagGroup"
+where tag."tagGroup"="tagGroup".pk;

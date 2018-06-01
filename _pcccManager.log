@@ -1,0 +1,1166 @@
+2018-06-01 20:09:25 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 20:09:25 INFO DaoManager Connecting to a selected database...
+2018-06-01 20:53:46 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 20:53:46 INFO DaoManager Connecting to a selected database...
+2018-06-01 20:57:10 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 20:57:11 INFO DaoManager Connecting to a selected database...
+2018-06-01 20:58:50 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 20:58:50 INFO DaoManager Connecting to a selected database...
+2018-06-01 21:31:34 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 21:31:34 INFO DaoManager Connecting to a selected database...
+2018-06-01 21:36:04 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 21:36:04 INFO DaoManager Connecting to a selected database...
+2018-06-01 21:36:07 INFO DaoManager Connected database successfully...
+2018-06-01 21:36:07 INFO DaoManager Creating statement for [SELECT id, name, "position", is_default, type, active, project_id, parent_id, position_name FROM public.enumerations limit 10]
+2018-06-01 21:36:07 ERROR DaoManager ERROR: relation "public.enumerations" does not exist
+  Position : 98
+org.postgresql.util.PSQLException: ERROR: relation "public.enumerations" does not exist
+  Position : 98
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:224)
+	at com.capgemini.pccc.manager.DaoManager.executeSQL(DaoManager.java:83)
+	at com.capgemini.pccc.manager.test.PCCCManagerTest.testDaoManager(PCCCManagerTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.textui.TestRunner.doRun(TestRunner.java:116)
+	at com.intellij.junit3.JUnit3IdeaTestRunner.doRun(JUnit3IdeaTestRunner.java:113)
+	at junit.textui.TestRunner.doRun(TestRunner.java:109)
+	at com.intellij.junit3.JUnit3IdeaTestRunner.startRunnerWithArgs(JUnit3IdeaTestRunner.java:45)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-06-01 21:36:07 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 21:41:30 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 21:41:30 INFO DaoManager Connecting to a selected database...
+2018-06-01 21:41:31 INFO DaoManager Connected database successfully...
+2018-06-01 21:41:31 INFO DaoManager Creating statement for [SELECT * FROM resource]
+2018-06-01 21:41:31 ERROR DaoManager ERROR: relation "resource" does not exist
+  Position : 15
+org.postgresql.util.PSQLException: ERROR: relation "resource" does not exist
+  Position : 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:224)
+	at com.capgemini.pccc.manager.DaoManager.executeSQL(DaoManager.java:83)
+	at com.capgemini.pccc.manager.test.PCCCManagerTest.testDaoManager(PCCCManagerTest.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.textui.TestRunner.doRun(TestRunner.java:116)
+	at com.intellij.junit3.JUnit3IdeaTestRunner.doRun(JUnit3IdeaTestRunner.java:113)
+	at junit.textui.TestRunner.doRun(TestRunner.java:109)
+	at com.intellij.junit3.JUnit3IdeaTestRunner.startRunnerWithArgs(JUnit3IdeaTestRunner.java:45)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-06-01 21:41:31 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 21:42:28 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 21:42:28 INFO DaoManager Connecting to a selected database...
+2018-06-01 21:42:29 INFO DaoManager Connected database successfully...
+2018-06-01 21:42:29 INFO DaoManager Creating statement for [SELECT email, lastname, firstname, worklocation, capgeminiteam, "professionFK", pk, login]
+2018-06-01 21:42:29 ERROR DaoManager ERROR: column "email" does not exist
+  Position : 8
+org.postgresql.util.PSQLException: ERROR: column "email" does not exist
+  Position : 8
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:224)
+	at com.capgemini.pccc.manager.DaoManager.executeSQL(DaoManager.java:83)
+	at com.capgemini.pccc.manager.test.PCCCManagerTest.testDaoManager(PCCCManagerTest.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.textui.TestRunner.doRun(TestRunner.java:116)
+	at com.intellij.junit3.JUnit3IdeaTestRunner.doRun(JUnit3IdeaTestRunner.java:113)
+	at junit.textui.TestRunner.doRun(TestRunner.java:109)
+	at com.intellij.junit3.JUnit3IdeaTestRunner.startRunnerWithArgs(JUnit3IdeaTestRunner.java:45)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-06-01 21:42:29 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 21:43:27 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 21:43:27 INFO DaoManager Connecting to a selected database...
+2018-06-01 21:43:27 INFO DaoManager Connected database successfully...
+2018-06-01 21:43:27 INFO DaoManager Creating statement for [SELECT email, lastname, firstname, worklocation, capgeminiteam, "professionFK", pk, login FROM pccc_schema.resource]
+2018-06-01 21:43:28 INFO DaoManager ==== aggColumnName [email]
+2018-06-01 21:43:28 INFO DaoManager ========================= For this row, rowAggColumnVal is [sebastien.flacher@capgemini.fr]
+2018-06-01 21:43:28 INFO DaoManager boJso : {
+    "firstname": "Sebastien",
+    "capgeminiteam": 1,
+    "professionFK": 6,
+    "pk": 3,
+    "login": "sflacher",
+    "worklocation": 1,
+    "email": "sebastien.flacher@capgemini.fr",
+    "lastname": "Flacher"
+}
+2018-06-01 21:43:28 INFO DaoManager ========================= For this row, rowAggColumnVal is [mathieu.nogaret@capgemini.fr]
+2018-06-01 21:43:28 INFO DaoManager boJso : {
+    "firstname": "Mathieu",
+    "capgeminiteam": 1,
+    "professionFK": 4,
+    "pk": 4,
+    "login": "mnogaret",
+    "worklocation": 1,
+    "email": "mathieu.nogaret@capgemini.fr",
+    "lastname": "Nogaret"
+}
+2018-06-01 21:43:28 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 21:43:28 INFO DaoManager Goodbye!
+2018-06-01 21:45:50 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 21:45:51 INFO DaoManager Connecting to a selected database...
+2018-06-01 21:45:51 INFO DaoManager Connected database successfully...
+2018-06-01 21:45:51 INFO DaoManager Creating statement for [SELECT email, lastname, firstname, worklocation, capgeminiteam, "professionFK", pk, login FROM pccc_schema.resource]
+2018-06-01 21:45:52 INFO DaoManager ==== aggColumnName [email]
+2018-06-01 21:45:52 INFO DaoManager ========================= For this row, rowAggColumnVal is [sebastien.flacher@capgemini.fr]
+2018-06-01 21:45:52 INFO DaoManager boJso : {
+    "firstname": "Sebastien",
+    "capgeminiteam": 1,
+    "professionFK": 6,
+    "pk": 3,
+    "login": "sflacher",
+    "worklocation": 1,
+    "email": "sebastien.flacher@capgemini.fr",
+    "lastname": "Flacher"
+}
+2018-06-01 21:45:52 INFO DaoManager ========================= For this row, rowAggColumnVal is [mathieu.nogaret@capgemini.fr]
+2018-06-01 21:45:52 INFO DaoManager boJso : {
+    "firstname": "Mathieu",
+    "capgeminiteam": 1,
+    "professionFK": 4,
+    "pk": 4,
+    "login": "mnogaret",
+    "worklocation": 1,
+    "email": "mathieu.nogaret@capgemini.fr",
+    "lastname": "Nogaret"
+}
+2018-06-01 21:45:52 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 21:45:52 INFO DaoManager Goodbye!
+2018-06-01 21:54:43 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 21:54:43 INFO DaoManager Connecting to a selected database...
+2018-06-01 21:54:44 INFO DaoManager Connected database successfully...
+2018-06-01 21:54:44 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, worklocation, capgeminiteam, "professionFK", login]
+2018-06-01 21:54:44 ERROR DaoManager ERROR: missing FROM-clause entry for table "wl"
+  Position : 8
+org.postgresql.util.PSQLException: ERROR: missing FROM-clause entry for table "wl"
+  Position : 8
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:224)
+	at com.capgemini.pccc.manager.DaoManager.executeSQL(DaoManager.java:83)
+	at com.capgemini.pccc.manager.test.PCCCManagerTest.testDaoManager(PCCCManagerTest.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.textui.TestRunner.doRun(TestRunner.java:116)
+	at com.intellij.junit3.JUnit3IdeaTestRunner.doRun(JUnit3IdeaTestRunner.java:113)
+	at junit.textui.TestRunner.doRun(TestRunner.java:109)
+	at com.intellij.junit3.JUnit3IdeaTestRunner.startRunnerWithArgs(JUnit3IdeaTestRunner.java:45)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-06-01 21:54:44 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 21:55:05 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 21:55:05 INFO DaoManager Connecting to a selected database...
+2018-06-01 21:55:06 INFO DaoManager Connected database successfully...
+2018-06-01 21:55:06 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, worklocation, capgeminiteam, "professionFK", login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl where wl.pk=rs.worklocation]
+2018-06-01 21:55:06 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 21:55:06 INFO DaoManager ========================= For this row, rowAggColumnVal is [Lyon]
+2018-06-01 21:55:06 INFO DaoManager boJso : {
+    "firstname": "Sebastien",
+    "capgeminiteam": 1,
+    "city": "Lyon",
+    "professionFK": 6,
+    "login": "sflacher",
+    "worklocation": 1,
+    "email": "sebastien.flacher@capgemini.fr",
+    "lastname": "Flacher"
+}
+2018-06-01 21:55:06 INFO DaoManager ========================= For this row, rowAggColumnVal is [Lyon]
+2018-06-01 21:55:06 INFO DaoManager boJso : {
+    "firstname": "Mathieu",
+    "capgeminiteam": 1,
+    "city": "Lyon",
+    "professionFK": 4,
+    "login": "mnogaret",
+    "worklocation": 1,
+    "email": "mathieu.nogaret@capgemini.fr",
+    "lastname": "Nogaret"
+}
+2018-06-01 21:55:06 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 21:55:06 INFO DaoManager Goodbye!
+2018-06-01 22:08:53 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 22:08:53 INFO DaoManager Connecting to a selected database...
+2018-06-01 22:08:54 INFO DaoManager Connected database successfully...
+2018-06-01 22:08:54 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, worklocation, capgeminiteam, "professionFK", login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl where wl.pk=rs.worklocation]
+2018-06-01 22:08:54 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 22:08:54 INFO DaoManager ========================= For this row, rowAggColumnVal is [Lyon]
+2018-06-01 22:08:54 INFO DaoManager boJso : {
+    "firstname": "Sebastien",
+    "capgeminiteam": 1,
+    "city": "Lyon",
+    "professionFK": 6,
+    "login": "sflacher",
+    "worklocation": 1,
+    "email": "sebastien.flacher@capgemini.fr",
+    "lastname": "Flacher"
+}
+2018-06-01 22:08:54 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 22:09:39 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 22:09:39 INFO DaoManager Connecting to a selected database...
+2018-06-01 22:09:40 INFO DaoManager Connected database successfully...
+2018-06-01 22:09:40 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, worklocation, capgeminiteam, "professionFK", login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl where wl.pk=rs.worklocation]
+2018-06-01 22:09:40 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 22:09:40 INFO DaoManager ========================= For this row, rowAggColumnVal is [Lyon]
+2018-06-01 22:09:40 INFO DaoManager boJso : {
+    "firstname": "Sebastien",
+    "capgeminiteam": 1,
+    "city": "Lyon",
+    "professionFK": 6,
+    "login": "sflacher",
+    "worklocation": 1,
+    "email": "sebastien.flacher@capgemini.fr",
+    "lastname": "Flacher"
+}
+2018-06-01 22:09:40 INFO DaoManager ========================= For this row, rowAggColumnVal is [Lyon]
+2018-06-01 22:09:40 INFO DaoManager boJso : {
+    "firstname": "Mathieu",
+    "capgeminiteam": 1,
+    "city": "Lyon",
+    "professionFK": 4,
+    "login": "mnogaret",
+    "worklocation": 1,
+    "email": "mathieu.nogaret@capgemini.fr",
+    "lastname": "Nogaret"
+}
+2018-06-01 22:09:40 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 22:09:40 INFO DaoManager {"Lyon": {"Lyon": {
+    "firstname": "Sebastien",
+    "capgeminiteam": 1,
+    "city": "Lyon",
+    "professionFK": 6,
+    "login": "sflacher",
+    "worklocation": 1,
+    "email": "sebastien.flacher@capgemini.fr",
+    "lastname": "Flacher"
+}}}
+2018-06-01 22:09:40 INFO DaoManager Goodbye!
+2018-06-01 22:23:53 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 22:23:53 INFO DaoManager Connecting to a selected database...
+2018-06-01 22:23:54 INFO DaoManager Connected database successfully...
+2018-06-01 22:23:54 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, worklocation, capgeminiteam, "professionFK", login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl where wl.pk=rs.worklocation]
+2018-06-01 22:23:54 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 22:23:54 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 22:23:54 INFO DaoManager boJso : {
+    "firstname": "Sebastien",
+    "capgeminiteam": 1,
+    "city": "Lyon",
+    "professionFK": 6,
+    "login": "sflacher",
+    "worklocation": 1,
+    "email": "sebastien.flacher@capgemini.fr",
+    "lastname": "Flacher"
+}
+2018-06-01 22:24:35 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 22:24:35 INFO DaoManager boJso : {
+    "firstname": "Mathieu",
+    "capgeminiteam": 1,
+    "city": "Lyon",
+    "professionFK": 4,
+    "login": "mnogaret",
+    "worklocation": 1,
+    "email": "mathieu.nogaret@capgemini.fr",
+    "lastname": "Nogaret"
+}
+2018-06-01 22:24:35 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 22:24:35 INFO DaoManager {"Lyon": [{
+    "firstname": "Sebastien",
+    "capgeminiteam": 1,
+    "city": "Lyon",
+    "professionFK": 6,
+    "login": "sflacher",
+    "worklocation": 1,
+    "email": "sebastien.flacher@capgemini.fr",
+    "lastname": "Flacher"
+}]}
+2018-06-01 22:24:35 INFO DaoManager Goodbye!
+2018-06-01 22:26:06 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 22:26:06 INFO DaoManager Connecting to a selected database...
+2018-06-01 22:26:07 INFO DaoManager Connected database successfully...
+2018-06-01 22:26:07 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, worklocation, capgeminiteam, "professionFK", login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl where wl.pk=rs.worklocation]
+2018-06-01 22:26:07 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 22:26:07 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 22:26:07 INFO DaoManager boJso : {
+    "firstname": "Sebastien",
+    "capgeminiteam": 1,
+    "city": "Lyon",
+    "professionFK": 6,
+    "login": "sflacher",
+    "worklocation": 1,
+    "email": "sebastien.flacher@capgemini.fr",
+    "lastname": "Flacher"
+}
+2018-06-01 22:26:07 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 22:26:07 INFO DaoManager boJso : {
+    "firstname": "Mathieu",
+    "capgeminiteam": 1,
+    "city": "Lyon",
+    "professionFK": 4,
+    "login": "mnogaret",
+    "worklocation": 1,
+    "email": "mathieu.nogaret@capgemini.fr",
+    "lastname": "Nogaret"
+}
+2018-06-01 22:26:07 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 22:26:07 INFO DaoManager {"Lyon": [
+    {
+        "firstname": "Sebastien",
+        "capgeminiteam": 1,
+        "city": "Lyon",
+        "professionFK": 6,
+        "login": "sflacher",
+        "worklocation": 1,
+        "email": "sebastien.flacher@capgemini.fr",
+        "lastname": "Flacher"
+    },
+    {
+        "firstname": "Mathieu",
+        "capgeminiteam": 1,
+        "city": "Lyon",
+        "professionFK": 4,
+        "login": "mnogaret",
+        "worklocation": 1,
+        "email": "mathieu.nogaret@capgemini.fr",
+        "lastname": "Nogaret"
+    }
+]}
+2018-06-01 22:26:07 INFO DaoManager Goodbye!
+2018-06-01 22:41:12 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 22:41:12 INFO DaoManager Connecting to a selected database...
+2018-06-01 22:41:13 INFO DaoManager Connected database successfully...
+2018-06-01 22:41:13 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, capgeminiteam, "professionFK", login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl where wl.pk=rs.worklocation]
+2018-06-01 22:41:13 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 22:41:13 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 22:41:13 INFO DaoManager boJso : {
+    "firstname": "Sébastien",
+    "capgeminiteam": 1,
+    "city": "Lyon",
+    "professionFK": 6,
+    "login": "sflacher",
+    "email": "sebastien.flacher@capgemini.fr",
+    "lastname": "Flacher"
+}
+2018-06-01 22:41:13 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 22:41:13 INFO DaoManager boJso : {
+    "firstname": "Mathieu",
+    "capgeminiteam": 1,
+    "city": "Lyon",
+    "professionFK": 4,
+    "login": "mnogaret",
+    "email": "mathieu.nogaret@capgemini.fr",
+    "lastname": "Nogaret"
+}
+2018-06-01 22:41:13 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 22:41:13 INFO DaoManager boJso : {
+    "firstname": "Manel",
+    "capgeminiteam": 1,
+    "city": "Grenoble",
+    "professionFK": 4,
+    "login": "mabdelfatteh",
+    "email": "manel.abdelfatteh@capgemini.com",
+    "lastname": "Abdelfatteh"
+}
+2018-06-01 22:41:13 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 22:41:13 INFO DaoManager boJso : {
+    "firstname": "Kossi-Eric",
+    "capgeminiteam": 1,
+    "city": "Grenoble",
+    "professionFK": 4,
+    "login": "kahialey",
+    "email": "kossi-eric.ahialey@capgemini.com",
+    "lastname": "Ahialey"
+}
+2018-06-01 22:41:13 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 22:41:13 INFO DaoManager {
+    "Grenoble": [
+        {
+            "firstname": "Manel",
+            "capgeminiteam": 1,
+            "city": "Grenoble",
+            "professionFK": 4,
+            "login": "mabdelfatteh",
+            "email": "manel.abdelfatteh@capgemini.com",
+            "lastname": "Abdelfatteh"
+        },
+        {
+            "firstname": "Kossi-Eric",
+            "capgeminiteam": 1,
+            "city": "Grenoble",
+            "professionFK": 4,
+            "login": "kahialey",
+            "email": "kossi-eric.ahialey@capgemini.com",
+            "lastname": "Ahialey"
+        }
+    ],
+    "Lyon": [
+        {
+            "firstname": "Sébastien",
+            "capgeminiteam": 1,
+            "city": "Lyon",
+            "professionFK": 6,
+            "login": "sflacher",
+            "email": "sebastien.flacher@capgemini.fr",
+            "lastname": "Flacher"
+        },
+        {
+            "firstname": "Mathieu",
+            "capgeminiteam": 1,
+            "city": "Lyon",
+            "professionFK": 4,
+            "login": "mnogaret",
+            "email": "mathieu.nogaret@capgemini.fr",
+            "lastname": "Nogaret"
+        }
+    ]
+}
+2018-06-01 22:41:13 INFO DaoManager Goodbye!
+2018-06-01 22:47:50 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 22:47:50 INFO DaoManager Connecting to a selected database...
+2018-06-01 22:47:51 INFO DaoManager Connected database successfully...
+2018-06-01 22:47:51 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, cgt."teamName", pf.name, login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl, pccc_schema."capGeminiTeam" cgt, pccc_schema.profession pf where wl.pk=rs.worklocation AND cgt.pk=rs.capgeminiteam AND pf.pk=rs."professionFK"]
+2018-06-01 22:47:51 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 22:47:51 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 22:47:51 INFO DaoManager boJso : {
+    "teamName": "code breakers",
+    "firstname": "Mathieu",
+    "city": "Lyon",
+    "name": "Développeur Senior",
+    "login": "mnogaret",
+    "email": "mathieu.nogaret@capgemini.fr",
+    "lastname": "Nogaret"
+}
+2018-06-01 22:47:51 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 22:47:51 INFO DaoManager boJso : {
+    "teamName": "code breakers",
+    "firstname": "Manel",
+    "city": "Grenoble",
+    "name": "Développeur Senior",
+    "login": "mabdelfatteh",
+    "email": "manel.abdelfatteh@capgemini.com",
+    "lastname": "Abdelfatteh"
+}
+2018-06-01 22:47:51 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 22:47:51 INFO DaoManager boJso : {
+    "teamName": "code breakers",
+    "firstname": "Kossi-Eric",
+    "city": "Grenoble",
+    "name": "Développeur Senior",
+    "login": "kahialey",
+    "email": "kossi-eric.ahialey@capgemini.com",
+    "lastname": "Ahialey"
+}
+2018-06-01 22:47:51 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 22:47:51 INFO DaoManager boJso : {
+    "teamName": "code breakers",
+    "firstname": "Sébastien",
+    "city": "Lyon",
+    "name": "Architecte",
+    "login": "sflacher",
+    "email": "sebastien.flacher@capgemini.fr",
+    "lastname": "Flacher"
+}
+2018-06-01 22:47:51 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 22:47:51 INFO DaoManager {
+    "Grenoble": [
+        {
+            "teamName": "code breakers",
+            "firstname": "Manel",
+            "city": "Grenoble",
+            "name": "Développeur Senior",
+            "login": "mabdelfatteh",
+            "email": "manel.abdelfatteh@capgemini.com",
+            "lastname": "Abdelfatteh"
+        },
+        {
+            "teamName": "code breakers",
+            "firstname": "Kossi-Eric",
+            "city": "Grenoble",
+            "name": "Développeur Senior",
+            "login": "kahialey",
+            "email": "kossi-eric.ahialey@capgemini.com",
+            "lastname": "Ahialey"
+        }
+    ],
+    "Lyon": [
+        {
+            "teamName": "code breakers",
+            "firstname": "Mathieu",
+            "city": "Lyon",
+            "name": "Développeur Senior",
+            "login": "mnogaret",
+            "email": "mathieu.nogaret@capgemini.fr",
+            "lastname": "Nogaret"
+        },
+        {
+            "teamName": "code breakers",
+            "firstname": "Sébastien",
+            "city": "Lyon",
+            "name": "Architecte",
+            "login": "sflacher",
+            "email": "sebastien.flacher@capgemini.fr",
+            "lastname": "Flacher"
+        }
+    ]
+}
+2018-06-01 22:47:51 INFO DaoManager Goodbye!
+2018-06-01 22:56:59 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 22:56:59 INFO DaoManager Connecting to a selected database...
+2018-06-01 22:57:00 INFO DaoManager Connected database successfully...
+2018-06-01 22:57:00 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, cgt."teamName", pf.name, login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl, pccc_schema."capGeminiTeam" cgt, pccc_schema.profession pf where wl.pk=rs.worklocation AND cgt.pk=rs.capgeminiteam AND pf.pk=rs."professionFK"]
+2018-06-01 22:57:00 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 22:57:00 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 22:57:00 INFO DaoManager boJso : {
+    "teamName": "code breakers",
+    "firstname": "Mathieu",
+    "city": "Lyon",
+    "name": "Développeur Senior",
+    "login": "mnogaret",
+    "email": "mathieu.nogaret@capgemini.fr",
+    "lastname": "Nogaret"
+}
+2018-06-01 22:57:00 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 22:57:00 INFO DaoManager boJso : {
+    "teamName": "code breakers",
+    "firstname": "Manel",
+    "city": "Grenoble",
+    "name": "Développeur Senior",
+    "login": "mabdelfatteh",
+    "email": "manel.abdelfatteh@capgemini.com",
+    "lastname": "Abdelfatteh"
+}
+2018-06-01 22:57:00 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 22:57:00 INFO DaoManager boJso : {
+    "teamName": "code breakers",
+    "firstname": "Kossi-Eric",
+    "city": "Grenoble",
+    "name": "Développeur Senior",
+    "login": "kahialey",
+    "email": "kossi-eric.ahialey@capgemini.com",
+    "lastname": "Ahialey"
+}
+2018-06-01 22:57:00 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 22:57:00 INFO DaoManager boJso : {
+    "teamName": "code breakers",
+    "firstname": "Sébastien",
+    "city": "Lyon",
+    "name": "Architecte",
+    "login": "sflacher",
+    "email": "sebastien.flacher@capgemini.fr",
+    "lastname": "Flacher"
+}
+2018-06-01 22:57:00 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 22:57:00 INFO DaoManager {
+    "Grenoble": [
+        {
+            "teamName": "code breakers",
+            "firstname": "Manel",
+            "city": "Grenoble",
+            "name": "Développeur Senior",
+            "login": "mabdelfatteh",
+            "email": "manel.abdelfatteh@capgemini.com",
+            "lastname": "Abdelfatteh"
+        },
+        {
+            "teamName": "code breakers",
+            "firstname": "Kossi-Eric",
+            "city": "Grenoble",
+            "name": "Développeur Senior",
+            "login": "kahialey",
+            "email": "kossi-eric.ahialey@capgemini.com",
+            "lastname": "Ahialey"
+        }
+    ],
+    "Lyon": [
+        {
+            "teamName": "code breakers",
+            "firstname": "Mathieu",
+            "city": "Lyon",
+            "name": "Développeur Senior",
+            "login": "mnogaret",
+            "email": "mathieu.nogaret@capgemini.fr",
+            "lastname": "Nogaret"
+        },
+        {
+            "teamName": "code breakers",
+            "firstname": "Sébastien",
+            "city": "Lyon",
+            "name": "Architecte",
+            "login": "sflacher",
+            "email": "sebastien.flacher@capgemini.fr",
+            "lastname": "Flacher"
+        }
+    ]
+}
+2018-06-01 22:57:00 INFO DaoManager Goodbye!
+2018-06-01 22:58:09 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 22:58:09 INFO DaoManager Connecting to a selected database...
+2018-06-01 22:58:10 INFO DaoManager Connected database successfully...
+2018-06-01 22:58:10 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, cgt."teamName", pf.name, login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl, pccc_schema."capGeminiTeam" cgt, pccc_schema.profession pf where wl.pk=rs.worklocation AND cgt.pk=rs.capgeminiteam AND pf.pk=rs."professionFK"]
+2018-06-01 22:58:10 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 22:58:10 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 22:58:10 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 22:58:10 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 22:58:10 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 22:58:10 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 22:58:10 INFO DaoManager {
+    "Grenoble": [
+        {
+            "teamName": "code breakers",
+            "firstname": "Manel",
+            "city": "Grenoble",
+            "name": "Développeur Senior",
+            "login": "mabdelfatteh",
+            "email": "manel.abdelfatteh@capgemini.com",
+            "lastname": "Abdelfatteh"
+        },
+        {
+            "teamName": "code breakers",
+            "firstname": "Kossi-Eric",
+            "city": "Grenoble",
+            "name": "Développeur Senior",
+            "login": "kahialey",
+            "email": "kossi-eric.ahialey@capgemini.com",
+            "lastname": "Ahialey"
+        }
+    ],
+    "Lyon": [
+        {
+            "teamName": "code breakers",
+            "firstname": "Mathieu",
+            "city": "Lyon",
+            "name": "Développeur Senior",
+            "login": "mnogaret",
+            "email": "mathieu.nogaret@capgemini.fr",
+            "lastname": "Nogaret"
+        },
+        {
+            "teamName": "code breakers",
+            "firstname": "Sébastien",
+            "city": "Lyon",
+            "name": "Architecte",
+            "login": "sflacher",
+            "email": "sebastien.flacher@capgemini.fr",
+            "lastname": "Flacher"
+        }
+    ]
+}
+2018-06-01 22:58:10 INFO DaoManager Goodbye!
+2018-06-01 23:00:47 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 23:00:47 INFO DaoManager 
+2018-06-01 23:00:47 INFO DaoManager Connecting to a selected database...
+2018-06-01 23:00:48 INFO DaoManager Connected database successfully...
+2018-06-01 23:00:48 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, cgt."teamName", pf.name as profession, login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl, pccc_schema."capGeminiTeam" cgt, pccc_schema.profession pf where wl.pk=rs.worklocation AND cgt.pk=rs.capgeminiteam AND pf.pk=rs."professionFK"]
+2018-06-01 23:00:48 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 23:00:48 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:00:48 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:00:48 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:00:48 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:00:48 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 23:00:48 INFO DaoManager {
+    "Grenoble": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Manel",
+            "city": "Grenoble",
+            "login": "mabdelfatteh",
+            "email": "manel.abdelfatteh@capgemini.com",
+            "lastname": "Abdelfatteh"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Kossi-Eric",
+            "city": "Grenoble",
+            "login": "kahialey",
+            "email": "kossi-eric.ahialey@capgemini.com",
+            "lastname": "Ahialey"
+        }
+    ],
+    "Lyon": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Mathieu",
+            "city": "Lyon",
+            "login": "mnogaret",
+            "email": "mathieu.nogaret@capgemini.fr",
+            "lastname": "Nogaret"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Architecte",
+            "firstname": "Sébastien",
+            "city": "Lyon",
+            "login": "sflacher",
+            "email": "sebastien.flacher@capgemini.fr",
+            "lastname": "Flacher"
+        }
+    ]
+}
+2018-06-01 23:00:48 INFO DaoManager Goodbye!
+2018-06-01 23:02:48 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 23:02:48 INFO DaoManager 
+2018-06-01 23:02:48 INFO DaoManager Connecting to a selected database...
+2018-06-01 23:02:49 INFO DaoManager Connected database successfully...
+2018-06-01 23:02:49 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, cgt."teamName", pf.name as profession, login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl, pccc_schema."capGeminiTeam" cgt, pccc_schema.profession pf where wl.pk=rs.worklocation AND cgt.pk=rs.capgeminiteam AND pf.pk=rs."professionFK"]
+2018-06-01 23:02:49 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 23:02:49 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:02:49 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:02:49 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:02:49 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:02:49 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 23:02:49 INFO DaoManager {
+    "Grenoble": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Manel",
+            "city": "Grenoble",
+            "login": "mabdelfatteh",
+            "email": "manel.abdelfatteh@capgemini.com",
+            "lastname": "Abdelfatteh"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Kossi-Eric",
+            "city": "Grenoble",
+            "login": "kahialey",
+            "email": "kossi-eric.ahialey@capgemini.com",
+            "lastname": "Ahialey"
+        }
+    ],
+    "Lyon": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Mathieu",
+            "city": "Lyon",
+            "login": "mnogaret",
+            "email": "mathieu.nogaret@capgemini.fr",
+            "lastname": "Nogaret"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Architecte",
+            "firstname": "Sébastien",
+            "city": "Lyon",
+            "login": "sflacher",
+            "email": "sebastien.flacher@capgemini.fr",
+            "lastname": "Flacher"
+        }
+    ]
+}
+2018-06-01 23:02:49 INFO DaoManager Goodbye!
+2018-06-01 23:04:23 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 23:04:23 INFO DaoManager ===================================================== USE_NO_DB_MODE : [false]
+2018-06-01 23:04:23 INFO DaoManager 
+2018-06-01 23:04:23 INFO DaoManager Connecting to a selected database...
+2018-06-01 23:04:24 INFO DaoManager Connected database successfully...
+2018-06-01 23:04:24 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, cgt."teamName", pf.name as profession, login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl, pccc_schema."capGeminiTeam" cgt, pccc_schema.profession pf where wl.pk=rs.worklocation AND cgt.pk=rs.capgeminiteam AND pf.pk=rs."professionFK"]
+2018-06-01 23:04:24 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 23:04:24 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:04:24 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:04:24 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:04:24 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:04:24 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 23:04:24 INFO DaoManager {
+    "Grenoble": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Manel",
+            "city": "Grenoble",
+            "login": "mabdelfatteh",
+            "email": "manel.abdelfatteh@capgemini.com",
+            "lastname": "Abdelfatteh"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Kossi-Eric",
+            "city": "Grenoble",
+            "login": "kahialey",
+            "email": "kossi-eric.ahialey@capgemini.com",
+            "lastname": "Ahialey"
+        }
+    ],
+    "Lyon": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Mathieu",
+            "city": "Lyon",
+            "login": "mnogaret",
+            "email": "mathieu.nogaret@capgemini.fr",
+            "lastname": "Nogaret"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Architecte",
+            "firstname": "Sébastien",
+            "city": "Lyon",
+            "login": "sflacher",
+            "email": "sebastien.flacher@capgemini.fr",
+            "lastname": "Flacher"
+        }
+    ]
+}
+2018-06-01 23:04:24 INFO DaoManager Goodbye!
+2018-06-01 23:05:14 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 23:05:14 INFO DaoManager 
+2018-06-01 23:05:14 INFO DaoManager Connecting to a selected database...
+2018-06-01 23:05:15 INFO DaoManager Connected database successfully...
+2018-06-01 23:05:15 INFO DaoManager ===================================================== USE_NO_DB_MODE : [false]
+2018-06-01 23:05:15 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, cgt."teamName", pf.name as profession, login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl, pccc_schema."capGeminiTeam" cgt, pccc_schema.profession pf where wl.pk=rs.worklocation AND cgt.pk=rs.capgeminiteam AND pf.pk=rs."professionFK"]
+2018-06-01 23:05:15 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 23:05:15 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:05:15 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:05:15 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:05:15 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:05:15 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 23:05:15 INFO DaoManager {
+    "Grenoble": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Manel",
+            "city": "Grenoble",
+            "login": "mabdelfatteh",
+            "email": "manel.abdelfatteh@capgemini.com",
+            "lastname": "Abdelfatteh"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Kossi-Eric",
+            "city": "Grenoble",
+            "login": "kahialey",
+            "email": "kossi-eric.ahialey@capgemini.com",
+            "lastname": "Ahialey"
+        }
+    ],
+    "Lyon": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Mathieu",
+            "city": "Lyon",
+            "login": "mnogaret",
+            "email": "mathieu.nogaret@capgemini.fr",
+            "lastname": "Nogaret"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Architecte",
+            "firstname": "Sébastien",
+            "city": "Lyon",
+            "login": "sflacher",
+            "email": "sebastien.flacher@capgemini.fr",
+            "lastname": "Flacher"
+        }
+    ]
+}
+2018-06-01 23:05:15 INFO DaoManager Goodbye!
+2018-06-01 23:05:59 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 23:05:59 INFO DaoManager 
+2018-06-01 23:05:59 INFO DaoManager Connecting to a selected database...
+2018-06-01 23:06:00 INFO DaoManager Connected database successfully...
+2018-06-01 23:06:00 INFO DaoManager USE_NO_DB_MODE : [false]
+2018-06-01 23:06:00 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, cgt."teamName", pf.name as profession, login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl, pccc_schema."capGeminiTeam" cgt, pccc_schema.profession pf where wl.pk=rs.worklocation AND cgt.pk=rs.capgeminiteam AND pf.pk=rs."professionFK"]
+2018-06-01 23:06:00 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 23:06:00 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:06:00 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:06:00 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:06:00 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:06:00 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 23:06:00 INFO DaoManager {
+    "Grenoble": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Manel",
+            "city": "Grenoble",
+            "login": "mabdelfatteh",
+            "email": "manel.abdelfatteh@capgemini.com",
+            "lastname": "Abdelfatteh"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Kossi-Eric",
+            "city": "Grenoble",
+            "login": "kahialey",
+            "email": "kossi-eric.ahialey@capgemini.com",
+            "lastname": "Ahialey"
+        }
+    ],
+    "Lyon": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Mathieu",
+            "city": "Lyon",
+            "login": "mnogaret",
+            "email": "mathieu.nogaret@capgemini.fr",
+            "lastname": "Nogaret"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Architecte",
+            "firstname": "Sébastien",
+            "city": "Lyon",
+            "login": "sflacher",
+            "email": "sebastien.flacher@capgemini.fr",
+            "lastname": "Flacher"
+        }
+    ]
+}
+2018-06-01 23:06:00 INFO DaoManager Goodbye!
+2018-06-01 23:07:43 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 23:07:43 INFO DaoManager 
+2018-06-01 23:07:43 INFO DaoManager Connecting to a selected database...
+2018-06-01 23:07:44 INFO DaoManager Connected database successfully...
+2018-06-01 23:07:44 INFO DaoManager ==== USE_NO_DB_MODE : [false]
+2018-06-01 23:07:44 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, cgt."teamName", pf.name as profession, login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl, pccc_schema."capGeminiTeam" cgt, pccc_schema.profession pf where wl.pk=rs.worklocation AND cgt.pk=rs.capgeminiteam AND pf.pk=rs."professionFK"]
+2018-06-01 23:07:44 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 23:07:44 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:07:44 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:07:44 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:07:44 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:07:44 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 23:07:44 INFO DaoManager {
+    "Grenoble": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Manel",
+            "city": "Grenoble",
+            "login": "mabdelfatteh",
+            "email": "manel.abdelfatteh@capgemini.com",
+            "lastname": "Abdelfatteh"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Kossi-Eric",
+            "city": "Grenoble",
+            "login": "kahialey",
+            "email": "kossi-eric.ahialey@capgemini.com",
+            "lastname": "Ahialey"
+        }
+    ],
+    "Lyon": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Mathieu",
+            "city": "Lyon",
+            "login": "mnogaret",
+            "email": "mathieu.nogaret@capgemini.fr",
+            "lastname": "Nogaret"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Architecte",
+            "firstname": "Sébastien",
+            "city": "Lyon",
+            "login": "sflacher",
+            "email": "sebastien.flacher@capgemini.fr",
+            "lastname": "Flacher"
+        }
+    ]
+}
+2018-06-01 23:07:44 INFO DaoManager Goodbye!
+2018-06-01 23:21:53 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 23:21:53 INFO DaoManager 
+2018-06-01 23:21:53 INFO DaoManager Connecting to a selected database...
+2018-06-01 23:21:54 INFO DaoManager Connected database successfully...
+2018-06-01 23:21:54 INFO DaoManager ==== useNoDBMode : [false]
+2018-06-01 23:21:54 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, cgt."teamName", pf.name as profession, login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl, pccc_schema."capGeminiTeam" cgt, pccc_schema.profession pf where wl.pk=rs.worklocation AND cgt.pk=rs.capgeminiteam AND pf.pk=rs."professionFK"]
+2018-06-01 23:21:54 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 23:21:54 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:21:54 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:21:54 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:21:54 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:21:54 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 23:21:54 INFO DaoManager {
+    "Grenoble": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Manel",
+            "city": "Grenoble",
+            "login": "mabdelfatteh",
+            "email": "manel.abdelfatteh@capgemini.com",
+            "lastname": "Abdelfatteh"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Kossi-Eric",
+            "city": "Grenoble",
+            "login": "kahialey",
+            "email": "kossi-eric.ahialey@capgemini.com",
+            "lastname": "Ahialey"
+        }
+    ],
+    "Lyon": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Mathieu",
+            "city": "Lyon",
+            "login": "mnogaret",
+            "email": "mathieu.nogaret@capgemini.fr",
+            "lastname": "Nogaret"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Architecte",
+            "firstname": "Sébastien",
+            "city": "Lyon",
+            "login": "sflacher",
+            "email": "sebastien.flacher@capgemini.fr",
+            "lastname": "Flacher"
+        }
+    ]
+}
+2018-06-01 23:21:54 INFO DaoManager Goodbye!
+2018-06-01 23:22:10 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 23:22:10 INFO DaoManager 
+2018-06-01 23:22:10 INFO DaoManager Connecting to a selected database...
+2018-06-01 23:22:11 INFO DaoManager Connected database successfully...
+2018-06-01 23:22:11 INFO DaoManager ==== useNoDBMode : [true]
+2018-06-01 23:23:06 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 23:23:06 INFO DaoManager 
+2018-06-01 23:23:06 INFO DaoManager Connecting to a selected database...
+2018-06-01 23:23:07 INFO DaoManager Connected database successfully...
+2018-06-01 23:23:07 INFO DaoManager ==== useNoDBMode : [true]
+2018-06-01 23:23:07 INFO DaoManager { "Grenoble": [ {"teamName": "code breakers","firstname": "Manel","city": "Grenoble","profession": "FAKE____VALUE","login": "mabdelfatteh","email": "manel.abdelfatteh@capgemini.com","lastname": "Abdelfatteh"}, {"teamName": "code breakers","firstname": "Kossi-Eric","city": "Grenoble","profession": "Développeur Senior","login": "kahialey","email": "kossi-eric.ahialey@capgemini.com",lastname": "Ahialey"}], "Lyon": [ {"teamName": "code breakers","firstname": "Mathieu","city": "Lyon","profession": "Développeur Senior","login": "mnogaret","email": "mathieu.nogaret@capgemini.fr","lastname": "Nogaret"}, {"teamName": "code breakers","firstname": "Sébastien","city": "Lyon","profession": "Architecte","login": "sflacher","email": "sebastien.flacher@capgemini.fr","lastname": "Flacher"}]}
+2018-06-01 23:24:09 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 23:24:09 INFO DaoManager 
+2018-06-01 23:24:09 INFO DaoManager Connecting to a selected database...
+2018-06-01 23:24:10 INFO DaoManager Connected database successfully...
+2018-06-01 23:24:10 INFO DaoManager ==== useNoDBMode : [true]
+2018-06-01 23:24:10 INFO DaoManager { "Grenoble": [ {"teamName": "code breakers","firstname": "Manel","city": "Grenoble","profession": "FAKE____VALUE","login": "mabdelfatteh","email": "manel.abdelfatteh@capgemini.com","lastname": "Abdelfatteh"}, {"teamName": "code breakers","firstname": "Kossi-Eric","city": "Grenoble","profession": "Développeur Senior","login": "kahialey","email": "kossi-eric.ahialey@capgemini.com","lastname": "Ahialey"}], "Lyon": [ {"teamName": "code breakers","firstname": "Mathieu","city": "Lyon","profession": "Développeur Senior","login": "mnogaret","email": "mathieu.nogaret@capgemini.fr","lastname": "Nogaret"}, {"teamName": "code breakers","firstname": "Sébastien","city": "Lyon","profession": "Architecte","login": "sflacher","email": "sebastien.flacher@capgemini.fr","lastname": "Flacher"}]}
+2018-06-01 23:25:15 INFO FluentPropertyBeanIntrospector Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2018-06-01 23:25:15 INFO DaoManager 
+2018-06-01 23:25:15 INFO DaoManager Connecting to a selected database...
+2018-06-01 23:25:16 INFO DaoManager Connected database successfully...
+2018-06-01 23:25:16 INFO DaoManager ==== useNoDBMode : [false]
+2018-06-01 23:25:16 INFO DaoManager Creating statement for [SELECT wl.city, email, lastname, firstname, cgt."teamName", pf.name as profession, login FROM pccc_schema.resource rs, pccc_schema."workLocation" wl, pccc_schema."capGeminiTeam" cgt, pccc_schema.profession pf where wl.pk=rs.worklocation AND cgt.pk=rs.capgeminiteam AND pf.pk=rs."professionFK"]
+2018-06-01 23:25:16 INFO DaoManager ==== aggColumnName [city]
+2018-06-01 23:25:16 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:25:16 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:25:16 INFO DaoManager ========================= For this row, aggColumnVal is [Grenoble]
+2018-06-01 23:25:16 INFO DaoManager ========================= For this row, aggColumnVal is [Lyon]
+2018-06-01 23:25:16 INFO DaoManager OK -- dbConnection is CLOSED
+2018-06-01 23:25:16 INFO DaoManager {
+    "Grenoble": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Manel",
+            "city": "Grenoble",
+            "login": "mabdelfatteh",
+            "email": "manel.abdelfatteh@capgemini.com",
+            "lastname": "Abdelfatteh"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Kossi-Eric",
+            "city": "Grenoble",
+            "login": "kahialey",
+            "email": "kossi-eric.ahialey@capgemini.com",
+            "lastname": "Ahialey"
+        }
+    ],
+    "Lyon": [
+        {
+            "teamName": "code breakers",
+            "profession": "Développeur Senior",
+            "firstname": "Mathieu",
+            "city": "Lyon",
+            "login": "mnogaret",
+            "email": "mathieu.nogaret@capgemini.fr",
+            "lastname": "Nogaret"
+        },
+        {
+            "teamName": "code breakers",
+            "profession": "Architecte",
+            "firstname": "Sébastien",
+            "city": "Lyon",
+            "login": "sflacher",
+            "email": "sebastien.flacher@capgemini.fr",
+            "lastname": "Flacher"
+        }
+    ]
+}
+2018-06-01 23:25:16 INFO DaoManager Goodbye!
