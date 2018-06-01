@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.eclipse.jetty:jetty-webapp:9.4.7.RC0">
     <CLASSES>
-      <root url="jar://C:/enedis/maven/repository/org/eclipse/jetty/jetty-webapp/9.4.7.RC0/jetty-webapp-9.4.7.RC0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-webapp/9.4.7.RC0/jetty-webapp-9.4.7.RC0.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://C:/enedis/maven/repository/org/eclipse/jetty/jetty-webapp/9.4.7.RC0/jetty-webapp-9.4.7.RC0-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-webapp/9.4.7.RC0/jetty-webapp-9.4.7.RC0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://C:/enedis/maven/repository/org/eclipse/jetty/jetty-webapp/9.4.7.RC0/jetty-webapp-9.4.7.RC0-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-webapp/9.4.7.RC0/jetty-webapp-9.4.7.RC0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
