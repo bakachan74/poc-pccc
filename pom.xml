@@ -93,5 +93,45 @@
 	</dependencies>
 	<build>
 		<finalName>pcccManager</finalName>
+
+		<plugins>
+			<!--<plugin>-->
+				<!--<groupId>org.codehaus.mojo</groupId>-->
+				<!--<artifactId>exec-maven-plugin</artifactId>-->
+				<!--<version>1.2</version>-->
+				<!--<configuration>-->
+					<!--<executable>java</executable>-->
+					<!--<arguments>-->
+						<!--<argument>-Dtomcat.util.scan.StandardJarScanFilter.jarsToScan=taglibs-standard-impl-*</argument>-->
+						<!--<argument>-Dtomcat.util.scan.StandardJarScanFilter.jarsToSkip=apache-*,ecj-*,jetty-*,asm-*,javax.servlet-*,javax.annotation-*,taglibs-standard-spec-*</argument>-->
+						<!--<argument>-cp</argument>-->
+						<!--<classpath />-->
+						<!--<argument>org.eclipse.jetty.demo.Main</argument>-->
+						<!--<argument>8080</argument>-->
+					<!--</arguments>-->
+				<!--</configuration>-->
+			<!--</plugin>-->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>2.4</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals><goal>copy</goal></goals>
+						<configuration>
+							<artifactItems>
+								<artifactItem>
+									<groupId>org.eclipse.jetty</groupId>
+									<artifactId>jetty-runner</artifactId>
+									<version>9.4.9.v20180320</version>
+									<destFileName>jetty-runner.jar</destFileName>
+								</artifactItem>
+							</artifactItems>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
 	</build>
 </project>
