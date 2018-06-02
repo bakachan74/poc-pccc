@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1506ffc3-fe81-4fd0-a5c6-13302f848170" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/AbstractHttpServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/AbstractHttpServlet.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/DaoManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/DaoManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/DaoServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/DaoServlet.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/InfoServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/InfoServlet.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pccc.properties" afterPath="$PROJECT_DIR$/src/main/resources/pccc.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,22 +22,52 @@
     <favorites_list name="pcccManager" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="AbstractHttpServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/AbstractHttpServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="-206">
+              <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pccc.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/pccc.properties">
+      <file leaf-file-name="DaoManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/DaoManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pccc.sql.queries.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/pccc.sql.queries.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaoServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/DaoServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="977">
+              <caret line="178" column="32" lean-forward="true" selection-start-line="178" selection-start-column="32" selection-end-line="178" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="113" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -40,14 +75,43 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nodb</find>
+      <find>.nodb</find>
+      <find>table</find>
+      <find>groupByCol</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>aggColumnId</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/resources/pccc.sql.querie.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/pccc.html.templates.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/DaoManager.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/pccc.sql.queries.json.results.save.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/pccc.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jetty-web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/InfoServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/AbstractHttpServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/DaoServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/pccc.sql.queries.properties" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -90,30 +154,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="poc-pccc" type="cbb8eebc:String" user="poc-pccc" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="poc-pccc" type="cbb8eebc:String" user="poc-pccc" />
-              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="poc-pccc" type="cbb8eebc:String" user="poc-pccc" />
-              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
-              <item name="com/capgemini/pccc/manager" type="cbb8eebc:String" user="com/capgemini/pccc/manager" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,13 +194,89 @@
               <item name="poc-pccc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractHttpServlet" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="pcccManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc-pccc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="DaoManager" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="pcccManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc-pccc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pcccManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc-pccc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pcccManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc-pccc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pcccManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc-pccc" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pcccManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc-pccc" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="dependency" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="poc-pccc" type="cbb8eebc:String" user="poc-pccc" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="poc-pccc" type="cbb8eebc:String" user="poc-pccc" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="poc-pccc" type="cbb8eebc:String" user="poc-pccc" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="com/capgemini/pccc/manager" type="cbb8eebc:String" user="com/capgemini/pccc/manager" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sebyeli\Documents\DATA_SEB\Dev\Data\Seb_workspace\poc-pccc\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\sebyeli\Documents\DATA_SEB\Dev\Data\Seb_workspace\poc-pccc\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -172,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jetty Runner.pcccManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -231,6 +349,23 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="jetty-runner pcccManager.war" type="JarApplication" factoryName="JAR Application">
+      <option name="JAR_PATH" value="--path target/*.war" />
+      <option name="VM_PARAMETERS" value=" -jar target\dependency\jetty-runner.jar " />
+      <option name="WORKING_DIRECTORY" value="C:\Users\sebyeli\Documents\DATA_SEB\Dev\Data\Seb_workspace\poc-pccc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="JDK 1.8.0" />
+      <envs />
+    </configuration>
+    <configuration name="pcccManager" type="JettyRunner-By-GuiKeller" factoryName="Jetty Runner">
+      <option name="JettyRunnerV112-WebAppPath" value="/pcccManager" />
+      <option name="JettyRunnerV112-WebAppFolder" value="C:\Users\sebyeli\Documents\DATA_SEB\Dev\Data\Seb_workspace\poc-pccc\src\main\webapp" />
+      <option name="JettyRunnerV112-ClassesDirectory" value="C:\Users\sebyeli\Documents\DATA_SEB\Dev\Data\Seb_workspace\poc-pccc\target\classes" />
+      <option name="JettyRunnerV112-RunOnPort" value="8080" />
+      <option name="JettyRunnerV112-JettyXML" value="" />
+      <option name="JettyRunnerV112-VmArgs" value="" />
+      <option name="JettyRunnerV112-PassParentEnvVars" value="true" />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -247,6 +382,11 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JAR Application.jetty-runner pcccManager.war" />
+      <item index="1" class="java.lang.String" itemvalue="Jetty Runner.pcccManager" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PCCCManagerTest.testDaoManager" />
+    </list>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="JUnit.PCCCManagerTest.testDaoManager" />
@@ -291,12 +431,13 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496" sideWeight="0.2913386" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2949002" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.168" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2949002" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2608" sideWeight="0.4937107" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496" sideWeight="0.7091195" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -307,7 +448,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -318,6 +458,86 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/AbstractHttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pccc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pccc.sql.queries.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pccc.html.templates.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="18" lean-forward="false" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/AbstractHttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="18" lean-forward="false" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pccc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/AbstractHttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pccc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/pccc/manager/test/PCCCManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -339,25 +559,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pccc.html.templates.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/AbstractHttpServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jetty-web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="425">
+          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jetty-logging.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/InfoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="118" column="17" lean-forward="false" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/pccc.properties">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pccc.sql.queries.last.results.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/DaoManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/AbstractHttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/pccc/manager/DaoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="977">
+          <caret line="178" column="32" lean-forward="true" selection-start-line="178" selection-start-column="32" selection-end-line="178" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pccc.sql.queries.properties">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="38" />
           <folding />
         </state>
       </provider>

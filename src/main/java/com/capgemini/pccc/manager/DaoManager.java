@@ -81,7 +81,7 @@ public class DaoManager {
         JSONObject responseJso = null;
 
         if (useNoDBMode) {
-            String sqlResponse = _config.getString("pccc.sql.select." + queryName + ".nodb");
+            String sqlResponse = _config.getString("pccc.sql.select." + queryName + ".last.result");
             LOG.info(sqlResponse);
             responseJso = new JSONObject(sqlResponse);
             return responseJso;

@@ -39,7 +39,7 @@ public class AbstractHttpServlet extends HttpServlet {
 
 	// =========================================== constructors
 	/**
-	 * @param uri
+	 *
 	 */
 	public AbstractHttpServlet() {
 		Calendar now_CAL = IA_DateUtils.buildCalendarInstance();
@@ -65,7 +65,7 @@ public class AbstractHttpServlet extends HttpServlet {
 		 * <table>,<tr>, <td>...
 		 */
 		if (htmlContent == null) {
-			htmlContent = "<H1>no html content provided</H1>";
+			htmlContent = "<H1>NO html content provided</H1>";
 			isError = true;
 		}
 
@@ -105,7 +105,7 @@ public class AbstractHttpServlet extends HttpServlet {
 		}
 
 		htmlOutput.append("<DIV class=\"panel\" id=\"content\">");
-		htmlOutput.append("<H3>" + htmlTitle + "</H3>");
+		htmlOutput.append("<H3>" + htmlTitle + "</H3><hr/>");
 		htmlOutput.append("" + htmlContent + "");
 		htmlOutput.append("</DIV>");
 

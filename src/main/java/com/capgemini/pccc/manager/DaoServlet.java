@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.text.DateFormat;
@@ -33,6 +34,7 @@ public class DaoServlet extends AbstractHttpServlet {
     public static DateFormat yMd_hms_verboseDF = new SimpleDateFormat(VERBOSE_DATE_FORMAT);
     private static String IM_HOST = null;
     private static String IM_PORT = null;
+    private static String LAST_RESULT_FILE = "pccc.sql.queries.last.results.properties";
 
     // =========================================== class variables
     static {
@@ -130,7 +132,7 @@ public class DaoServlet extends AbstractHttpServlet {
 
             switch (action) {
                 case select:
-                    if (isParamMissing(response, "tableName", httpValMap))
+                    if (isParamMissing(response, "queryName", httpValMap))
                         return;
 
                     doSelect(response, httpValMap);
@@ -173,7 +175,7 @@ public class DaoServlet extends AbstractHttpServlet {
     private Boolean isParamMissing(HttpServletResponse response, String paramName, Map<String, String> httpValMap) {
         String paramVal = httpValMap.get(paramName);
         if (paramVal == null) {
-            respondWithHtml(response, "param�tre '" + paramName + "' manquant", paramName, false);
+            respondWithHtml(response, "parametre '" + paramName + "' manquant", paramName, false);
             return Boolean.TRUE;
         }
         LOG.info(paramName + " '" + paramVal + "'");
@@ -264,12 +266,24 @@ public class DaoServlet extends AbstractHttpServlet {
 
         try {
             jsonObject = daoManager.executeSQL(sql, aggColumnId, queryName);
-
+            if (jsonObject != null) {
+                saveLastResult(queryName, jsonObject);
+            }
         } catch (SQLException e) {
             LOG.error("Exception [" + e.getClass().getSimpleName() + "] occured -- " + e.getMessage(), e);
         }
 
-        respondWithHtml(response, method, "NOT IMPLEMENTED", false);
+        respondWithHtml(response, "SHOULD NOT COME HERE", method, false);
+    }
+
+    private void saveLastResult(String queryName, JSONObject jsonObject) {
+        FileWriter fw = null;
+        try {
+            fw = new FileWriter(LAST_RESULT_FILE);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
     /**
@@ -280,7 +294,7 @@ public class DaoServlet extends AbstractHttpServlet {
         String pkId = httpValMap.get("pk_id");
         String method = "doInsert(response, " + pkId + ")" + Constants.DASHES;
 
-        respondWithHtml(response, method, "NOT IMPLEMENTED", false);
+        respondWithHtml(response, "NOT IMPLEMENTED", method, false);
     }
 
     /**
@@ -291,7 +305,7 @@ public class DaoServlet extends AbstractHttpServlet {
         String pkId = httpValMap.get("pk_id");
         String method = "doUpdate(response, " + pkId + ")" + Constants.DASHES;
 
-        respondWithHtml(response, method, "NOT IMPLEMENTED", false);
+        respondWithHtml(response, "NOT IMPLEMENTED", method, false);
     }
 
     /**
@@ -302,7 +316,7 @@ public class DaoServlet extends AbstractHttpServlet {
         String pkId = httpValMap.get("pk_id");
         String method = "doDelete(response, " + pkId + ")" + Constants.DASHES;
 
-        respondWithHtml(response, method, "NOT IMPLEMENTED", false);
+        respondWithHtml(response, "NOT IMPLEMENTED", method, false);
     }
 
     /**
@@ -313,7 +327,7 @@ public class DaoServlet extends AbstractHttpServlet {
         String pkId = httpValMap.get("pk_id");
         String method = "addComment(response, " + pkId + ")" + Constants.DASHES;
 
-        respondWithHtml(response, method, "NOT IMPLEMENTED", false);
+        respondWithHtml(response, "NOT IMPLEMENTED", method, false);
     }
 
 }

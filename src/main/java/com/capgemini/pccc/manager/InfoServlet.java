@@ -34,7 +34,7 @@ public class InfoServlet extends AbstractHttpServlet {
 
 	// =========================================== constructors
 	/**
-	 * @param uri
+	 *
 	 */
 	public InfoServlet() {
 	}
