@@ -1,7 +1,5 @@
-package com.capgemini.pccc.manager.test;
+package com.capgemini.pccc.manager;
 
-import com.capgemini.pccc.manager.AbstractHttpServlet;
-import com.capgemini.pccc.manager.DaoManager;
 import com.capgemini.pccc.util.Constants;
 import com.capgemini.pccc.util.IA_DateUtils;
 import com.capgemini.pccc.util.IaUtils;
@@ -15,6 +13,8 @@ import org.slf4j.LoggerFactory;
 import java.sql.SQLException;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+import java.util.HashMap;
+import java.util.Map;
 
 public class PCCCManagerTest extends TestCase {
 
@@ -74,11 +74,11 @@ public class PCCCManagerTest extends TestCase {
 
     public void testDaoManager() {
         Configuration _config = IaUtils.loadConfig(AbstractHttpServlet.CFG_FILENAME);
+
         DaoManager daoMgr = DaoManager.getInstance(_config);
 
         try {
             daoMgr.createDbConnection();
-
             String queryName = "resourceByWorkLocation";
             String sqlQuery = _config.getString("pccc.sql.select." + queryName);
             int aggColumnId = _config.getInt("pccc.sql.select." + queryName + ".aggColumnId") - 1;
@@ -88,6 +88,17 @@ public class PCCCManagerTest extends TestCase {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    public void testDaoServlet() {
+        Configuration _config = IaUtils.loadConfig(AbstractHttpServlet.CFG_FILENAME);
+        DaoServlet daoServlet = new DaoServlet();
+
+        Map<String, String> httpValMap = new HashMap<>();
+        httpValMap.put("queryName", "resourceByWorkLocation");
+
+        daoServlet.doSelect("doSelect/moreURIstuff", null, httpValMap);
+
     }
     // ------------------------------------- protected methods
 
